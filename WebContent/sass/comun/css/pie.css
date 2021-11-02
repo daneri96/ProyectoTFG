@@ -1,0 +1,142 @@
+#pie {
+  background-color: #1B1E1F;
+  margin-top: 2em;
+  width: 102%;
+  height: 50%;
+}
+
+#pie .layout {
+  display: flex;
+}
+
+#pie .layout .mipie {
+  margin: 0 auto;
+}
+
+#pie .layout .mipie #logito {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: white;
+  text-shadow: 0px 0px 1px white;
+  padding-top: 1em;
+}
+
+#pie .layout .mipie h2 {
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 0.1em solid white;
+  margin-bottom: 1.1em;
+  padding-top: 1em;
+}
+
+#pie .layout .mipie p {
+  color: white;
+  margin: 1em;
+}
+
+#pie .layout .mipie p span img {
+  height: 1em;
+  margin-right: 0.4em;
+}
+
+#pie .layout .mipie p a {
+  text-decoration: none;
+  color: white;
+}
+
+#chat {
+  width: 19em;
+  height: 5em;
+  margin-top: 8em;
+  background-color: blue;
+}
+#chat #help {
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 4em;
+}
+#chat #help #cerrar {
+  position: relative;
+  left: 57px;
+  bottom: 30px;
+}
+#chat #subchat {
+  height: 25em;
+  width: 19em;
+  display: none;
+}
+#chat #subchat .contenido {
+  height: 19em;
+  background-color: #E6E7E8;
+}
+#chat #subchat .contenido #subcontent #min-content {
+  padding-top: 3px;
+}
+#chat #subchat .contenido #subcontent #min-content p {
+  background-color: white;
+  color: #1B1E1F;
+  font-size: 15px;
+}
+#chat #subchat .contenido #sb-content p {
+  background-color: white;
+  color: #1B1E1F;
+  font-size: 15px;
+}
+#chat #subchat .contenido #sh-content p {
+  background-color: white;
+  color: #1B1E1F;
+  font-size: 15px;
+}
+#chat #subchat textarea {
+  height: 6em;
+  width: 19em;
+  border-top: 1px solid #C9C4C3;
+}
+#chat #b-botones {
+  background-color: white;
+  position: absolute;
+  top: 325px;
+  left: 0px;
+  margin-right: 9em;
+  right: -9em;
+}
+#chat #b-botones #close {
+  width: 2em;
+  margin-left: 8em;
+  text-align: center;
+}
+#chat #b-botones #b-contacto {
+  display: none;
+  padding-top: 1em;
+}
+#chat #b-botones #b-contacto input[type=submit] {
+  background-color: #e9502a;
+  color: white;
+  margin-left: 1em;
+  padding-right: 3em;
+  padding-left: 3em;
+  text-transform: uppercase;
+}
+#chat #b-botones #b-contacto input[type=submit]:hover {
+  background-color: blue;
+  transition: all 300ms;
+}
+#chat #b-botones #b-informacion {
+  display: none;
+}
+#chat #b-botones #b-informacion input[type=submit] {
+  background-color: #e9502a;
+  color: white;
+  margin-left: 1em;
+  padding-right: 3em;
+  padding-left: 73px;
+  margin-top: 1em;
+  text-transform: uppercase;
+}
+#chat #b-botones #b-informacion input[type=submit]:hover {
+  background-color: blue;
+  transition: all 300ms;
+}
+
+/*# sourceMappingURL=pie.css.map */

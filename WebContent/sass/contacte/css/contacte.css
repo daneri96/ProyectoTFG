@@ -1,0 +1,60 @@
+.principal {
+  margin-bottom: 10em;
+}
+
+#informacion {
+  border: 1px solid #C7C7C7;
+  width: 20%;
+  height: 16em;
+}
+#informacion .titulo {
+  border-bottom: 1px solid #C7C7C7;
+}
+#informacion img {
+  width: 2em;
+  margin-left: 1em;
+  margin-top: 3em;
+}
+#informacion #web {
+  margin-right: 3em;
+  font-size: 17px;
+}
+#informacion #correo {
+  border-top: 1px dashed #C7C7C7;
+}
+#informacion #correo img {
+  margin-top: 1em;
+}
+#informacion #correo p {
+  margin-top: 0.7em;
+  margin-right: 1em;
+}
+
+#contacto {
+  margin-top: -17em;
+  margin-right: 23em;
+  width: 38em;
+}
+#contacto form select {
+  margin-left: 2em;
+}
+#contacto form input[type=email] {
+  margin-left: 2em;
+}
+#contacto form textarea {
+  margin-left: 2em;
+}
+#contacto form input[type=submit] {
+  background-color: #28a745;
+  padding-right: 5em;
+  padding-left: 5em;
+  margin-top: 1em;
+}
+#contacto form input[type=submit]:hover {
+  background-color: #343a40;
+}
+#contacto form .boton {
+  margin-left: 24em;
+}
+
+/*# sourceMappingURL=contacte.css.map */

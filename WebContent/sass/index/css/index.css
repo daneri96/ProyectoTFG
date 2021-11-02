@@ -1,0 +1,130 @@
+#general {
+  overflow: hidden;
+}
+#general #images #boku {
+  height: 410px;
+  width: 1240px;
+  margin-left: 40px;
+  margin-top: 3em;
+}
+#general #images #carrusel {
+  overflow: hidden;
+}
+#general #images #fat {
+  overflow: hidden;
+}
+#general #images #fat #fate {
+  height: 250px;
+  margin-left: 40px;
+}
+#general #images #fat h3 {
+  position: absolute;
+  top: 27em;
+  left: 7em;
+  color: white;
+}
+#general #images #fat:hover #fate {
+  filter: saturate(110%);
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+#general #images #ble {
+  overflow: hidden;
+}
+#general #images #ble #bleach {
+  height: 250px;
+  margin-left: -19px;
+}
+#general #images #ble h3 {
+  position: absolute;
+  top: 20px;
+  left: 5em;
+  color: white;
+}
+#general #images #ble #bleach:hover {
+  filter: saturate(130%);
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+#general #images #kim #kimetsu {
+  height: 250px;
+  width: 359px;
+  margin-left: -34px;
+}
+#general #images #kim h3 {
+  position: absolute;
+  top: 20px;
+  left: 2em;
+  color: white;
+}
+#general #images #kim #kimetsu:hover {
+  filter: saturate(160%);
+  -webkit-transform: rotateY(180deg);
+  -webkit-transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  transform-style: preserve-3d;
+}
+#general .color-figuras {
+  border: 1px solid #1B1E1F;
+  margin-left: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 11em;
+  height: 3em;
+  background-color: #ccc;
+}
+#general .color-figuras h3 {
+  position: absolute;
+  top: 31em;
+  color: black;
+  left: 32px;
+}
+#general .producto img {
+  width: 200px;
+  height: 270px;
+  margin-left: 4em;
+}
+#general .producto h4 {
+  margin-left: 89px;
+}
+#general .producto input[type=submit] {
+  margin-left: 105px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#general .color-comics {
+  border: 1px solid #1B1E1F;
+  margin-left: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 11em;
+  height: 3em;
+  background-color: #ccc;
+}
+#general .color-comics h3 {
+  position: absolute;
+  top: 1322px;
+  color: black;
+  left: 32px;
+}
+#general .color-dvd {
+  border: 1px solid #1B1E1F;
+  margin-left: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 11em;
+  height: 3em;
+  background-color: #ccc;
+}
+#general .color-dvd h3 {
+  position: absolute;
+  top: 1782px;
+  color: black;
+  left: 55px;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,141 @@
+#general {
+    overflow: hidden;
+    #images {
+        #boku {
+            height: 410px;
+            width: 1240px;
+            margin-left: 40px;
+            margin-top: 3em;
+        }
+        //imagen de fate
+        #carrusel {
+            overflow: hidden;
+        }
+        #fat {
+            overflow: hidden;
+            #fate {
+                height: 250px;
+                margin-left: 40px;
+            }
+            h3 {
+                position: absolute;
+                top: 27em;
+                left: 7em;
+                color: white;
+            }
+        }
+        #fat:hover #fate {
+            filter: saturate(110%);
+            -webkit-transform: rotateY(180deg);
+            -webkit-transform-style: preserve-3d;
+            transform: rotateY(180deg);
+            transform-style: preserve-3d;
+        }
+        //imagen de bleach
+        #ble {
+            overflow: hidden;
+            #bleach {
+                height: 250px;
+                margin-left: -19px;
+            }
+            h3 {
+                position: absolute;
+                top: 20px;
+                left: 5em;
+                color: white;
+            }
+            #bleach:hover {
+                filter: saturate(130%);
+                -webkit-transform: rotateY(180deg);
+                -webkit-transform-style: preserve-3d;
+                transform: rotateY(180deg);
+                transform-style: preserve-3d;
+            }
+        }
+        //imagen de kimetsuheight: 250px;
+        #kim {
+            #kimetsu {
+                height: 250px;
+                width: 359px;
+                margin-left: -34px;
+            }
+            h3 {
+                position: absolute;
+                top: 20px;
+                left: 2em;
+                color: white;
+            }
+            #kimetsu:hover {
+                filter: saturate(160%);
+                -webkit-transform: rotateY(180deg);
+                -webkit-transform-style: preserve-3d;
+                transform: rotateY(180deg);
+                transform-style: preserve-3d;
+            }
+        }
+    }
+    //figuras , comics y dvds
+    .color-figuras {
+        border: 1px solid #1B1E1F;
+        margin-left: 3em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 11em;
+        height: 3em;
+        background-color: #ccc;
+        h3 {
+            position: absolute;
+            top: 31em;
+            color: black;
+            left: 32px;
+        }
+    }
+    //figuras
+    .producto {
+        img {
+            width: 200px;
+            height: 270px;
+            margin-left: 4em;
+        }
+        h4 {
+            margin-left: 89px;
+        }
+        input[type="submit"] {
+            margin-left: 105px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+    //color comics
+    .color-comics {
+        border: 1px solid #1B1E1F;
+        margin-left: 3em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 11em;
+        height: 3em;
+        background-color: #ccc;
+        h3 {
+            position: absolute;
+            top: 1322px;
+            color: black;
+            left: 32px;
+        }
+    }
+    //color dvd
+    .color-dvd {
+        border: 1px solid #1B1E1F;
+        margin-left: 3em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width: 11em;
+        height: 3em;
+        background-color: #ccc;
+        h3 {
+            position: absolute;
+            top: 1782px;
+            color: black;
+            left: 55px;
+        }
+    }
+}

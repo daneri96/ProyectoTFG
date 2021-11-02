@@ -1,0 +1,36 @@
+//datos usuario
+#formularios {
+    margin-left: 5em;
+    margin-top: 3em;
+    #datos {
+        input[type="text"] {
+            border: 2px solid #ccc;
+            padding-right: 6em;
+        }
+        input[type="submit"] {
+            background-color: green;
+            border: 1px solid green;
+            cursor: pointer;
+            margin-top: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    }
+    #imagen-perfil {
+        margin-left: 31em;
+        margin-top: -1em;
+        img {
+            margin-left: -8em;
+            width: 450px;
+            height: 300px;
+        }
+        input[type="submit"] {
+            background-color: green;
+            border: 1px solid green;
+            cursor: pointer;
+            margin-top: 1em;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    }
+}

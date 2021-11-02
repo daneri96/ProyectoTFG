@@ -1,0 +1,21 @@
+#producto img {
+  margin-left: 24em;
+  margin-top: 3em;
+  width: 32%;
+  height: 50%;
+}
+#producto #info-p {
+  float: right;
+  margin-top: 4em;
+  margin-right: 9em;
+}
+#producto #info-p button {
+  padding-right: 12em;
+}
+#producto #info-p button input[type=submit] {
+  background-color: transparent;
+  cursor: pointer;
+  padding-left: 10em;
+}
+
+/*# sourceMappingURL=info-productos.css.map */

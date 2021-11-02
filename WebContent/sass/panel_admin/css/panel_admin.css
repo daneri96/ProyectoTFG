@@ -1,0 +1,48 @@
+#submenu #pr a {
+  text-decoration: none;
+}
+#submenu #pr h4 {
+  margin-left: 8em;
+  margin-top: 0em;
+  position: relative;
+  top: 8em;
+  left: 1em;
+}
+#submenu #pr #imgPr {
+  width: 400px;
+  height: 320px;
+  margin-left: 7em;
+}
+#submenu #blog a {
+  text-decoration: none;
+}
+#submenu #blog h4 {
+  margin-left: 17em;
+  position: relative;
+  top: 9em;
+}
+#submenu #blog #imgBlog {
+  width: 400px;
+  height: 320px;
+  margin-left: 19em;
+  margin-top: 2em;
+}
+
+/*imagen final del panel de administrador*/
+#estadisticas a {
+  text-decoration: none;
+}
+#estadisticas h4 {
+  margin-left: 22em;
+  position: relative;
+  top: 11em;
+  left: 1em;
+}
+#estadisticas #imgEst {
+  width: 400px;
+  height: 320px;
+  margin-left: 25em;
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=panel_admin.css.map */

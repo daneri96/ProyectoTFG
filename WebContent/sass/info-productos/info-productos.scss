@@ -1,0 +1,21 @@
+#producto {
+    img {
+        margin-left: 24em;
+        margin-top: 3em;
+        width: 32%;
+        height: 50%;
+    }
+    #info-p {
+        float: right;
+        margin-top: 4em;
+        margin-right: 9em;
+        button {
+            padding-right: 12em;
+            input[type="submit"] {
+                background-color: transparent;
+                cursor: pointer;
+                padding-left: 10em;
+            }
+        }
+    }
+}

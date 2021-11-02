@@ -1,0 +1,40 @@
+form {
+    margin-top: 1em;
+    margin-left: 20em;
+    padding-left: 7em;
+    padding-top: 1.1em;
+    margin-right: 9.5em;
+    border: 1px solid gray;
+    box-shadow: 5px 10px 2px gray;
+    .form-group {
+        input {
+            width: 35%;
+            border: 1px solid gray;
+        }
+        button {
+            margin-left: 8.5em;
+            margin-top: 1.3em;
+        }
+        a {
+            margin-top: 6px;
+            margin-left: 8.5em;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+        }
+        input[type="submit"]:hover {
+            background-color: #343a40;
+        }
+    }
+}
+
+#reg {
+    margin-top: 2em;
+    margin-left: 31em;
+    a {
+        text-decoration: none;
+        font-size: 13px;
+    }
+}

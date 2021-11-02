@@ -1,0 +1,46 @@
+form {
+  margin-top: 16px;
+  margin-left: 316px;
+  padding-left: 117px;
+  padding-top: 18px;
+  margin-right: 151px;
+  border: 1px solid gray;
+  -webkit-box-shadow: 5px 10px 2px gray;
+          box-shadow: 5px 10px 2px gray;
+}
+
+form .form-group input {
+  width: 35%;
+  border: 1px solid gray;
+}
+
+form .form-group button {
+  margin-left: 136px;
+  margin-top: 20px;
+}
+
+form .form-group a {
+  margin-top: 6px;
+  margin-left: 117px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+form .form-group input[type="submit"] {
+  background-color: #28a745;
+}
+
+form .form-group input[type="submit"]:hover {
+  background-color: #343a40;
+}
+
+#reg {
+  margin-top: 32px;
+  margin-left: 487px;
+}
+
+#reg a {
+  text-decoration: none;
+  font-size: 13px;
+}
+/*# sourceMappingURL=sesion.css.map */

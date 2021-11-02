@@ -1,0 +1,70 @@
+//importacion de fuentes
+@font-face {
+    font-family: "Kuro";
+    src: url(../../fuentes/Karasha.ttf);
+}
+
+* {
+    margin: 0px;
+    border: 0px;
+    font-family: 'Kuro' !important;
+}
+
+body {
+    margin-right: 2em !important;
+}
+
+
+/*cabecera de la página*/
+
+#contenedor {
+    header {
+        img {
+            height: 75px;
+        }
+        #nombre-tienda {
+            font-family: 'Kuro' !important;
+        }
+        ul {
+            padding-left: 53em;
+            li {
+                list-style: none;
+                display: inline-block;
+                margin-right: 0.8em;
+            }
+            img {
+                height: 32px;
+                margin-bottom: 0.1em;
+            }
+        }
+    }
+    /*menu de la pagina de inicio*/
+    nav {
+        width: 78em;
+        height: 40px;
+        margin: 0 auto;
+        background-color: #1B1E1F;
+        border: 1px solid #333333;
+        box-shadow: 0px 22px 22px gray;
+        font-size: 1em;
+        margin-left: 2.2em;
+        ul {
+            padding: 0.4em;
+            li {
+                display: block;
+                float: left;
+                a {
+                    color: white;
+                    display: block;
+                    padding-left: 5em;
+                    padding-right: 4em;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    nav>ul>li>a:hover {
+        color: #2ba977;
+        transition: all 300ms;
+    }
+}

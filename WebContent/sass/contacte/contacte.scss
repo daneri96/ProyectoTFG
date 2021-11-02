@@ -1,0 +1,60 @@
+.principal {
+    margin-bottom: 10em;
+}
+
+#informacion {
+    border: 1px solid #C7C7C7;
+    width: 20%;
+    height: 16em;
+    .titulo {
+        border-bottom: 1px solid #C7C7C7;
+    }
+    img {
+        width: 2em;
+        margin-left: 1em;
+        margin-top: 3em;
+    }
+    #web {
+        margin-right: 3em;
+        font-size: 17px;
+    }
+    #correo {
+        border-top: 1px dashed #C7C7C7;
+        img {
+            margin-top: 1em;
+        }
+        p {
+            margin-top: 0.7em;
+            margin-right: 1em;
+        }
+    }
+}
+
+#contacto {
+    margin-top: -17em;
+    margin-right: 23em;
+    width: 38em;
+    form {
+        select {
+            margin-left: 2em;
+        }
+        input[type="email"] {
+            margin-left: 2em;
+        }
+        textarea {
+            margin-left: 2em;
+        }
+        input[type="submit"] {
+            background-color: #28a745;
+            padding-right: 5em;
+            padding-left: 5em;
+            margin-top: 1em;
+        }
+        input[type="submit"]:hover {
+            background-color: #343a40;
+        }
+        .boton {
+            margin-left: 24em;
+        }
+    }
+}

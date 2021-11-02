@@ -1,0 +1,35 @@
+#formularios {
+  margin-left: 5em;
+  margin-top: 3em;
+}
+#formularios #datos input[type=text] {
+  border: 2px solid #ccc;
+  padding-right: 6em;
+}
+#formularios #datos input[type=submit] {
+  background-color: green;
+  border: 1px solid green;
+  cursor: pointer;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#formularios #imagen-perfil {
+  margin-left: 31em;
+  margin-top: -1em;
+}
+#formularios #imagen-perfil img {
+  margin-left: -8em;
+  width: 450px;
+  height: 300px;
+}
+#formularios #imagen-perfil input[type=submit] {
+  background-color: green;
+  border: 1px solid green;
+  cursor: pointer;
+  margin-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+/*# sourceMappingURL=perfil-usuario.css.map */
